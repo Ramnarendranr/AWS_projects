@@ -130,7 +130,7 @@ Kubectl edit deploy/aws-load-balancer-controller -n cube-system
 
 To delete:
 
-Helm-delete aws-load-balancer -n kube-system
+Helm delete aws-load-balancer -n kube-system
 
 kubectl get deploy -n kube-system
 
